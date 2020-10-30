@@ -2,7 +2,13 @@ My VIM config repository.
 
 ## Installation
 
+Install (neovim)[https://neovim.io/]
+
 Check my init.vim to see my config.
+
+Copy init.vim to ~/.config/nvim/init.vim
+
+Run `nvim +PlugInstall`
 
 ## Plugin
 
@@ -15,6 +21,7 @@ Check my init.vim to see my config.
 - [Vim-Devicon](https://github.com/ryanoasis/vim-devicons) - For NERDTree icons
 - [Vim-Easymotion](https://github.com/easymotion/vim-easymotion) - For fast motion cursor to words
 - [FZF](https://github.com/junegunn/fzf) with The-silver-searcher - For search files
+- [vim-airline]() - Coloring commands type in Vim 
 
 ### Language Client support Tools:
 - [vim-go](https://github.com/fatih/vim-go)
