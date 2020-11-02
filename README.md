@@ -2,7 +2,7 @@ My VIM config repository.
 
 ## Installation
 
-Install (neovim)[https://neovim.io/]
+Install [neovim](https://neovim.io/)
 
 Check my init.vim to see my config.
 
