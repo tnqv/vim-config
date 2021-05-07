@@ -34,10 +34,10 @@ Run `nvim +PlugInstall`
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
 
 ### Shortkeys Note:
-- Control + P: Open search files
-- <Leader> + 1,2,3,4,5,6,..: Switch to tab 1,2,3,4,5,6,...
-- <Leader> + words + <Enter>: Use vimmotion to direct to searched words
-- <Leader> + g: Use gitblame
-- Ctrl + G: Search contains in files
-- alt + hjkl: Move between split/vsplit panels
-- Ctrl + n: Open new terminal in vertical tab
+- `Control + P`: Open search files
+- `<Leader> + 1,2,3,4,5,6,..`: Switch to tab 1,2,3,4,5,6,...
+- `<Leader> + words + <Enter>`: Use vimmotion to direct to searched words
+- `<Leader> + g`: Use gitblame
+- `Ctrl + G`: Search contains in files
+- `alt + hjkl`: Move between split/vsplit panels
+- `Ctrl + n`: Open new terminal in vertical tab
