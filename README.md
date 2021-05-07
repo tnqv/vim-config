@@ -40,3 +40,4 @@ Run `nvim +PlugInstall`
 - <Leader> + g: Use gitblame
 - Ctrl + G: Search contains in files
 - alt + hjkl: Move between split/vsplit panels
+- Ctrl + n: Open new terminal in vertical tab
