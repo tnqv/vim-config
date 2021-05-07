@@ -24,6 +24,9 @@ call plug#begin("~/.vim/plugged")
   " File Search
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
+
+  " Git blame
+  Plug 'zivyangll/git-blame.vim'
 call plug#end()
 
 " Enable theming support
@@ -128,3 +131,5 @@ noremap <silent><expr> g/ incsearch#go(<SID>incsearch_config({'is_stay': 1}))
 
 " Vim-airline
 let g:airline_powerline_fonts = 1
+
+nnoremap <Leader>g :<C-u>call gitblame#echo()<CR>
